@@ -1,0 +1,47 @@
+
+1)window
+Window es un objeto de javascript - hasta el DOM depende de el-hace referencia a la ventana
+hererda las propiedades de EventTarget
+
+	-open() -Carga un recurso en el contexto de un nuevo navegador a umo que ya existe.
+	-close() - Cierra la ventana aactual, o la ventana a la que se llamo
+	-closed - Indica si la ventana referenciada esta cerrada o no.
+	-name - Obtiene / establece el nombre del contexto de exploracion de la ventana.
+	-stop() - detiene la carga de rewcursos en ele contexto de navegacion actual.
+	-alert() - muestra un cuadro de alerta con el contenido especificado  y un boton aceptar
+	-print() - Abre un cuadro de dialogo para imprimir el documento actual
+	-prompt() - Abre u cuadro de dialogo con un mensaje que solicite ell usuario un dato (string)
+	-confirm() - Abre un cuadro de dialogo con un mensaje y dos botones(aceptar y cancelar)
+
+2) herramientas de desarrollo del navegador (chrome)
+
+- Pestaña de elements
+	-filtros y buscar las palabras claves 
+	-modificar y crear y eliminar etiquetas
+
+3)Eventos
+
+-es culaquier cambio q haya en la pagina (siempre de damos un click a un boten de da un evento)
+event handlers -> 
+
+-event.stopPropagation() -- para q los eventos asociados dejen de propagarse
+
+	Eventos del Mause
+	-click - ocurre con un click
+	-dblclick - acurre con doble click
+	-mouseover - ocurre cuendo el puntero se mueve sobre un elementoo sobre uno de sus hijos
+	-mouseout - ocurre cuando se mueve el punterofuera de un elemento o de sus elemtos secundarios	
+
+	Evento de teclado
+	-keypress - cuando una tecla es presionada
+	-keydown - ocurre cuando la tecla se deja de presionar
+	-onkeyup - ocurre despues de que los eventos anteriores hayan concluido consecutivamente
+
+	Eventos de la interfaz 
+	-error - ocurre cuando sucede un error durante la carga de un archivo multimedia
+	-load - ocurre cuando un objeto se ha cargado
+	-beforeunload - ocurre antes de que el documento este a punto de descargarse
+	-unload - ocurre una vez que se ha descargado una pagina
+	-resize - ocurre cuando se cambia el tamaño de la vista del documento
+	-scroll - ocurre cuando se  desplaza de la barra de despplazamiento de un elemento
+	-select - ocurre despues de que el usuario selecciona algun texto te <input> <textarea>	

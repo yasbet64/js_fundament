@@ -1,0 +1,11 @@
+nice so what you guys want do is you just want to put in all the details says
+aplication name aplication url what about the application url what shoould we make that
+
+the url doesn't actually matter to be honest i added a random one and it didn't crash the uh the app at all so here what we can do is and the application summary you need to give it a summary just saying like
+you're either making a demo or something atherwise it doesn't let you get past it and then enter your details and you should be able to go through so once that's done what we're going to be doing is for those of you who don't know what
+react is we have
+web development which is basically  html css y js
+now all of those are the three fundamentals which is how we build a websyte but we pretty much wrap it in something that facebook built and that is called
+react and react alllows us to build
+really scalable powerful apps and the main reason why it's called
+react is because it cleverly owns a very in a very smart way it only renders what it needs to render so we're going to be building that in a 

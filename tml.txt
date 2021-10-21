@@ -1,0 +1,31 @@
+<br/> --- salto d€ linaa y crea una linea debajo
+<b><b/>----negrita
+<small><>---parrafo pequenito
+<mark>----seleccioa amariillo
+<del><>----texto eiminado
+<ins><>----texto sbrayado
+<em><>-----efatizar un parafo
+<sub>p<>----sub indice de una palabra
+<sup>p<>-----super indice 
+<hr> -----linea horizontal
+<code><>--diferente texto 
+
+//codigo para abrir el cuerpo de enviar email
+ <a href="mailto:yasbetharredondoroque@gmail.com.mx?subject=Contactosy&body=prueba yasemil">eviar email</a>
+
+
+<a  hrf="" tarjet="_blank"->para q se habra en otra pagina>
+</a>----para agregar link para ir a otra pg.
+
+<img  src="" alt="" ->es para mostrar texto alternativo en caso de error la img
+width="" title=""->se muestra ensima de la imagen /> --imagenes/fig.png --- http://jhjsbduhfhb.com.pe
+
+Text-decoration----para subrayado 
+
+<pre></pre> ---se respeta el texto tal cul se esta agreando(espacios, enter)
+
+border-collapse :collapse;para q desaparecer elborder dlla tabla
+
+<th colspan="2"></th> para lina juntoa
+
+<td rowspan="2"></td>

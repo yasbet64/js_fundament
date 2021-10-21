@@ -1,0 +1,5 @@
+//caracteres: decimal,nombre y hexadeciml
+https://dev.w3.org/html5/html-author/charref
+
+palta d oloor
+coolors.co

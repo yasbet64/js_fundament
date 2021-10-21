@@ -1,0 +1,101 @@
+localhost: hostname- es una etiqueta o un nombre que se le asigna a  un dispositivo dentroo de la red(en evez de recordar a ip)
+puertos: puntos de entradas en la red 1024 en adelante
+
+//especificidad:
+important
+atributo style
+
+1selectores ID
+2Selectores por clase,atributos y psedoclases
+3Seectores por tipo y pseu elementos
+
+//modifica las posiiones utilizando la propiedades top, eft, botton, right
+position:static reative absolute fixed sticky
+
+static -p 8000
+
+herramientas: google fonts// para fuentes
+
+etilo de bordes: 3schools.com
+
+//pasa el mause
+a:hover{
+apacity:08;
+a:visitid{
+a:ac
+
+// poition: relative
+no pierde su esacio reservado
+su referencia es su posicion inicial en la web
+
+*top:arriba
+*left:izquierda
+*right: derecha
+*bottom:abajo
+
+//absolute
+si pierde su espacio reservado
+su referencia es el ancestro mas cercano que este posiciionado
+-si no hay ancestros su referencia sera el body
+
+**header.header>nav.nav>ul.menu>(li.item>a[href="#"].link)*3
+//background(ruta)(posicion)(dimension) no-repeat
+  valores(left right top bottom center)
+         izqui dere arrb abj centro
+
+//opacity
+para que se vea el elemento transparente
+pero tiene espaacio reservado
+//display:none
+desaparece , ya no tiene espacio reservado
+
+//responsive
+se adapta a diferentes dispositivos
+
+//varible global
+es aquella variable puede acceder a iferentes selectores 
+:root{
+    --color: balck;
+}
+color: var(--color);
+
+//variable local es aquella q accede aun solo selector
+
+.block{
+  --color:red;
+
+//@media
+all -> para todo tipo de medios 
+print ->para impresoras
+screen-> para pantallas
+speech -> para lectores de pantalla que "leen" la pagina en voz alta
+
+//tipos de espaciado
+
+espaciado interior:de manera interna 
+espaciado exterior:la distancia entre el contenido1 y contenido2
+
+margin:externo
+padding:interno
+
+//unidades de medida
+unidades absolutas ->medida fija q no cambia , q no depende de ningun factor
+px,etc.
+unidades relativa ->depende de algun factor(resolucion, ya que son muy flexibles)
+rem,em,%,etc.
+unidades fleibles -> (viewport)es un porccentaje concreto del tamañño especifico
+que tengamos en la ventana del navegador vw,vh,vmin,vma.
+
+//::before
+*son pseud-elemetos 
+si se apilan uno encima del otro de forma natural(antes)
+
+//::after
+es un contenidoq tambien esta "despues" en el orden de origen, por no colocarlo
+ensima de
+
+//contenido
+content:tiene diferentes valores
+content:url ->imagenes , un pseudo elemento puede ser un degradado
+content:"" ->util para borrar e insertar imagenes como imagenes e fondo
+content:counter(li) ->util para diseñar listas hasta q aparesca el marcador
